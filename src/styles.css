@@ -1,0 +1,102 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    height: 60px;
+    width: 100%;
+    background-color: #4c92e3;
+    color: #fff;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+    background-color: #fff;
+    border-radius: 7px;
+    border-width: 1px;
+    margin: 8px;
+    padding: 10px;
+}
+
+.capa {
+    margin-bottom: 15px;
+
+}
+
+.titulo {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.subtitulo {
+    margin-bottom: 15px;
+
+}
+
+.botao {
+    height: 40px;
+    margin: auto;
+    background: none;
+    border-radius: 5px;
+    color: #4c92e3;
+    border: 2px solid #4c92e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.7s;
+}
+
+.botao:hover {
+    background-color: #4c92e3;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 700px) {
+    .posts {
+        width: 600px;
+    }
+}
+
+@media (max-width: 600px) {
+    .posts {
+        width: 500px;
+    }
+}
+
+@media (max-width: 500px) {
+    .posts {
+        width: 400px;
+    }
+}
+
+@media (max-width: 400px) {
+    .posts {
+        width: 300px;
+    }
+}
